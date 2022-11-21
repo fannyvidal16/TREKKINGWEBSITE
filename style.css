@@ -1,0 +1,250 @@
+.randonnée{
+    background-image: url("images/paysage.png");
+    height: 100vh;
+    padding: 0;
+    background-size: cover;
+}
+.ElementsNav ul{
+    list-style-type: none;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.ElementsNav ul li{
+    margin-right: 50px;
+}
+.title{
+    margin-top: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    
+}
+.texte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 500px;
+    margin-left: 460px;
+    text-align: center;
+}
+.fleche{
+    font-weight:900;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+.containerCheckbox{
+    background-color: #F4F5F7;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.case1{
+    margin-left: 50px;
+}
+.case3{
+    margin-right:400px;
+}
+.products{
+    background-color:#A69A7A;
+    color: white;
+    border:none;
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.men{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.ligneMen{
+    background-color:gray;
+    height: 2px;
+    width: 1240px;
+    margin-left: 100px;
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
+.page{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 1350px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    color: #A69A7A;
+}
+.sectionMen{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 50px;
+}
+.caseProduit{
+    background-color:#F4F5F7;
+    height: 380px;
+    width: 320px;
+    margin-left: 50px;
+}
+.size{
+    padding: 20px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.ronds{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    justify-content: space-around;
+
+}
+.rond1{
+    height: 30px;
+    width: 30px;
+    background-color: #2D5DB3;
+    border-radius:50%;
+    margin-right: 5px;
+}
+.rond2{
+    height: 30px;
+    width: 30px;
+    background-color:#FBE75D;
+    border-radius:50%;
+    margin-right: 5px;
+}
+.rond3{
+    height: 30px;
+    width: 30px;
+    background-color: #535253;
+    border-radius:50%;
+    margin-right: 5px;
+}
+.rond4{
+    height: 30px;
+    width: 30px;
+    background-color: #CCA9AC;
+    border-radius:50%;
+    margin-right: 5px;
+}
+.rond5{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius:50%;
+    margin-right: 5px;
+}
+
+.photoProduit{
+    margin-left: 80px;
+    height: 220px;
+}
+.type{
+    color: #A69A7A;
+    padding: 20px;
+    margin-top: 30px;
+}
+.price{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: -40px;
+}
+.ligneWomen{
+    background-color:gray;
+    height: 2px;
+    width: 1180px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.women{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 60px;
+}
+.pageWomen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #A69A7A;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.sectionWomen{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 50px;
+}
+.photoProduitW{
+    height: 180px;
+    display: flex;
+    padding-left: 40px;
+    margin-bottom: 65px;
+}
+.containerAbout{
+    margin-top: 120px;
+    height: 400px;
+    background-color: #A69A7A;
+}
+.titleAbout{
+    color:#7C7258 ;
+    background-color:#A69A7A;
+    background-size: 200px;
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+}
+.texteAbout{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 280px;
+    margin-right: 280px;
+    border: #7C7258 solid;
+    border-color: #7C7258;
+    border-width: 710;
+    padding: 80px;
+}
+.containerTwitter{
+    background-color: #525152;
+    height: 100px;
+}
+.photoTwitter{
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.containerFooter{
+    height: 500px;
+    background-color:#424242;
+    color: white;
+}
+.left{
+    margin-left: 50px;
+    padding-top: 150px;
+    width: 300px;
+}
+.right{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -150px;
+    margin-right: 50px;
+}
+.right a{
+        color: white ;
+        text-decoration: none;
+        margin: 5px
+    }
